@@ -31,7 +31,7 @@ int main(void)
 {
 	uint8_t start_status;
 	printf("scanf 1st staus within 8types : ");
-	scanf_s("%" PRIu8 "", &start_status);
+	scanf_s("%" SCNu8 "", &start_status);
 	printf("\n");
 	print_into_binary(start_status);
 	
@@ -42,12 +42,12 @@ int main(void)
 	while (need <= 1)
 	{
 
-		scanf_s("%" PRId8 "", &need);
+		scanf_s("%" SCNd8 "", &need);
 		uint8_t number_to_fix;
 
 		if (need == 0)
 		{
-			scanf_s("%" PRIu8 "", &number_to_fix);
+			scanf_s("%" SCNu8 "", &number_to_fix);
 
 			uint8_t middle_status = turn_off(start_status, number_to_fix);
 			start_status = middle_status;
@@ -56,7 +56,7 @@ int main(void)
 		}
 		else if (need == 1)
 		{
-			scanf_s("%" PRIu8 "", &number_to_fix);
+			scanf_s("%" SCNu8 "", &number_to_fix);
 
 			uint8_t middle_status = turn_on(start_status, number_to_fix);
 			start_status = middle_status;

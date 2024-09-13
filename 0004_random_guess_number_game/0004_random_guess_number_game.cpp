@@ -21,7 +21,7 @@ int main(void)
 		puts("请输入数字");
 
 		fgets(buffer, sizeof(buffer), stdin);
-		status = sscanf_s(buffer," %" PRIu32 "", &guess_number);
+		status = sscanf_s(buffer,"%d", &guess_number);
 
 		/*
 			sscanf_s 扫描字符串将其转换为对应类型赋值对应变量
