@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0006_gomoku", "0006_gomoku\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0007_finger_guessing_game", "0007_finger_guessing_game\0007_finger_guessing_game.vcxproj", "{FC8A880D-07BE-4F4F-972B-97B25187CE5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0008_find_number_with_potiner", "0008_find_number_with_potiner\0008_find_number_with_potiner.vcxproj", "{3BA31505-F707-4C14-BA48-EC80DD60DEB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{FC8A880D-07BE-4F4F-972B-97B25187CE5D}.Release|x64.Build.0 = Release|x64
 		{FC8A880D-07BE-4F4F-972B-97B25187CE5D}.Release|x86.ActiveCfg = Release|Win32
 		{FC8A880D-07BE-4F4F-972B-97B25187CE5D}.Release|x86.Build.0 = Release|Win32
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Debug|x64.ActiveCfg = Debug|x64
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Debug|x64.Build.0 = Debug|x64
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Debug|x86.Build.0 = Debug|Win32
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Release|x64.ActiveCfg = Release|x64
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Release|x64.Build.0 = Release|x64
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Release|x86.ActiveCfg = Release|Win32
+		{3BA31505-F707-4C14-BA48-EC80DD60DEB0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
